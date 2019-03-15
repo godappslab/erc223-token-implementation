@@ -30,26 +30,25 @@ module.exports = (deployer) => {
 
 **トークンの名称**
 
-```
+```es6
 const name = 'GToken'; // Specify the name of your token
 ```
 
 **トークンの単位**
 
-```
+```es6
 const symbol = 'GT'; // Specify the symbol of your token
 ```
 
-
 **小数点以下の桁数**
 
-```
+```es6
 const decimals = 18; // Number of decimal places
 ```
 
 **総供給量(整数表現)**
 
-```
+```es6
 const totalSupply = 1000000000; // Total supply of tokens (integer representation)
 ```
 
